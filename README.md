@@ -9,10 +9,9 @@
   * [Thoughts](#thoughts)
   * [Technologies Used](#technologies)
   * [Links](#links)
-  * [Tests](#tests)
 
 ## Task :man_technologist:
-For this assignment, we were tasked with creating a command line application using Node.js. The purpose of the application is to generate a a team profile page that populates with card displaying information on employees based on user inputs.
+For this assignment, we were tasked with creating a command line application using sql. The purpose of the application is to create an employee management system.
 
 The generator can be invoked by using the command: 
 
@@ -20,33 +19,25 @@ The generator can be invoked by using the command:
 node index.js
 ```
 
-Once invoked, the command line will the user ask a series of questions that will inquire (see what I did there?...) about what the user wants included in their page. After the user has inputted the first employee's information, they will be asked if they would like to add another employee. If the user agrees, they will be asked the previous set of questioning once again. 
+Once invoked, the command line will the user ask a series of questions that will inquire (see what I did there?...) about what actions the user would like to take. The user can decide whether they would like to add or remove an employee, find employees by department, update a department, etc.
 
 ## Preview
 
-![Generator Example](README-items/Generator.gif)
+![Generator Example](README-items/EMS.gif)
 
 
 
 ## Thoughts :thinking:
-This assignment just continues to prove the muscle that the command line carries. To be able to dynamically update a webpage through the command line is mind boggling considering how we created webpages previously.
+
 
 ## Technologies Used
-Languages: HTML, Javascript, Node.js
+Languages: Javascript, Node.js
 
-Packages: Inquirer, util, fs
-
-Frameworks: Bootstrap
+Packages: Inquirer
 
 ## Links
-Repo: https://github.com/uzobeki/Team-Profile-Generator <br>
+Repo: https://github.com/uzobeki/Employee-Management-System <br>
 Example Page: https://github.com/uzobeki/Team-Profile-Generator/blob/main/dreamteam.html
-
-## Tests
-
-Several tests were done to ensure the efficiency of the javascript files. 4 test files were created to test the code of the 4 Javascript files needed for this assignment. These files are located within the _tests_ folder. The results of that testing is below.
-
-![Tests](README-items/TestScreenshot.png)
 
 
 
