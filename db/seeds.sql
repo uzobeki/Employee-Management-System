@@ -33,5 +33,4 @@ VALUES("Montana", "Cole", 1, NULL),
 ("Anita", "Reuben-Lartney", 9, NULL),
 ("Jasmine", "Nicole", 10, 9);
 
-
-
+select * from employee

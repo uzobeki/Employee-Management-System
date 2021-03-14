@@ -17,7 +17,7 @@ For this assignment, we were tasked with creating a command line application usi
 The generator can be invoked by using the command: 
 
 ```bash
-node generator.js
+node index.js
 ```
 
 Once invoked, the command line will the user ask a series of questions that will inquire (see what I did there?...) about what the user wants included in their page. After the user has inputted the first employee's information, they will be asked if they would like to add another employee. If the user agrees, they will be asked the previous set of questioning once again. 
